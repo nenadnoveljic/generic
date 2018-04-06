@@ -13,7 +13,7 @@ use strict ;
 use IO::Socket::INET;
 
 my ( $server , $port ) = @ARGV ;
-print "INFO: Checking connection to $server:$port\n" ;
+print "INFO: Checking connectivity to $server:$port\n" ;
 
 # auto-flush on socket
 $| = 1;
